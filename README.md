@@ -4,7 +4,9 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-![Visitors](https://visitor-badge-reloaded.herokuapp.com/badge?page_id=Borsesumit02.Borsesumit02)
+
+https://camo.githubusercontent.com/aa0f78fb4abd254489d6d99468b0883ee85b7d796c8e87f0eb981719946c2fba/68747470733a2f2f70726f66696c652d636f756e7465722e676c697463682e6d652f76697368616c303331362f636f756e742e7376673f
+
 <!---
 Borsesumit02/Borsesumit02 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
