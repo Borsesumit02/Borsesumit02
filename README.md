@@ -4,7 +4,7 @@
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
-![Visitors](https://visitor-badge.glitch.me/badge?page_id=yourusername.Borsesumit02)
+![Visitors](https://visitor-badge.glitch.me/badge?page_id=Borsesumit02.Borsesumit02)
 <!---
 Borsesumit02/Borsesumit02 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
