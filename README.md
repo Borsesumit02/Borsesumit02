@@ -20,3 +20,31 @@
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
 
+
+
+CREATE TABLE exams (
+    examid SERIAL PRIMARY KEY,
+    examname VARCHAR(255) UNIQUE NOT NULL,
+    minage INT NOT NULL,
+    maxage INT NOT NULL,
+    qualification_required TEXT NOT NULL,
+    specialization TEXT NOT NULL
+);
+
+
+INSERT INTO exams (examname, minage, maxage, qualification_required, specialization) 
+VALUES 
+('GMAT', 21, 30, 'PHD', 'cs');
+
+
+select * from exams
+
+
+
+SELECT * FROM exams WHERE qualification_required = 'BTech';
+
+SELECT * FROM exams 
+WHERE qualification_required = '12th' 
+AND minage <= 18 
+AND maxage >= 18;
+
